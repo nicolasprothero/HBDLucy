@@ -37,7 +37,7 @@ h2 {
     margin-right: auto;
     left: 0;
     right: 0;
-    bottom: 2vh;
+    bottom: 2.5vh;
     text-align: center;
 }
 
@@ -66,8 +66,55 @@ p {
     right: 0;
 }
 
-.sides {
-    height: 100%;
+.stickers {
+    width: 200vw;
+}
+
+.stickie {
+    position: absolute;
+}
+
+.riso {
+    width: 22vw;
+    left: 2vw;
+    bottom: -90vh;
+}
+
+.bear {
+    width: 17vw;
+    bottom: -55vh;
+    transform: rotate(-10deg);
+}
+
+.haniwa {
+    width: 17vw;
+    left: 10vw;
+    bottom: -40vh;
+    transform: rotate(10deg);
+}
+
+.pickle {
+    width: 19vw;
+    right: 3vw;
+    bottom: -90vh;
+    transform: rotate(20deg);
+}
+
+.baggu {
+    right: 4vw;
+    bottom: -50vh;
+    width: 20vw;
+}
+
+.sheet {
+    width: 50vw;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .floatingMe { 
